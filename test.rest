@@ -1,0 +1,31 @@
+POST http://localhost:5000/notes
+
+{
+  "title" : "angga",
+  "tags": "java",
+  "body": "loremm blabla"
+}
+
+
+###
+
+GET http://localhost:5000/notes
+
+###
+
+GET http://localhost:5000/notes/QoHwTbFSK9Jw13NS
+
+###
+
+PUT http://localhost:5000/notes/wdYYg8-rz-qRW275
+
+{
+  "title" : "halo mengubah note",
+  "tags" : "javascript",
+  "body": "halo saya berhasil megi=ubah anda"
+}
+
+
+###
+
+DELETE http://localhost:5000/notes/wdYYg8-rz-qRW275
